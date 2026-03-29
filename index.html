@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FranciscoPage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Menu de Navegacion -->
+<nav>
+    <ul class="menu">
+        <li><a href="index.html" onclick="showPage('inicio')">Inicio</a></li>
+
+        <li>
+            <a href="#">Paginas</a>
+            <ul class="submenu">
+                <li><a href="musica.html" onclick="showPage('Musica')">Musica</a></li>
+                <li><a href="juegos.html" onclick="showPage('Juegos')">Juegos</a></li>
+                <li><a href="enlaces.html" onclick="showPage('Enlaces')">Youtube</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Codigo</a>
+            <ul class="submenu">
+                <li><a href="codigos.html" onclick="showPage('Codigos')">Codigos</a></li>
+            </ul>
+        </li>
+
+
+        <li>
+            <a href="#">Acerca</a>
+            <ul class="submenu">
+                <li><a href="yo.html" onclick="showPage('Creador')">Francisco V</a></li>
+            </ul>
+        </li>
+    </ul>
+
+
+</nav>
+
+<!-- contenido -->
+<div class="content">
+    <!-- pagina inicio -->
+    <div id="inicio" class='page active'>
+        <div class='inicio-content'>
+            <h1>YounggFran777</h1>
+            <p> Explora la pagina de Francisco Valenzuela, desde su musica, juegos, codigo y mas!! </p>
+        </div>
+    </div>
+
+</body>
+</html>
